@@ -33,5 +33,12 @@
     "url": "https://www.scaler.com/topics/design-patterns/flyweight-design-pattern/",
     "date": "2024-04-26",
     "displayDate": "Apr 2024"
+  },
+  {
+    "title": "Designing Online Shopping System",
+    "excerpt": "Designing a scalable e-commerce system",
+    "url": "https://github.com/SweetCodey/system-design-masterclass/blob/main/14.%20Design%20Online%20Shopping%20System/OnlineShoppingSystem.md",
+    "date": "2026-02-24",
+    "displayDate": "Feb 2026"
   }
 ]
