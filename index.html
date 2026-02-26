@@ -1,135 +1,300 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>GaneshKumarM-MinimalPortfolioTemplate</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Ganesh Kumar Marimuthu - Software Engineer | Portfolio</title>
+  <meta name="title" content="Ganesh Kumar Marimuthu - Software Engineer | Portfolio">
+  <meta name="description" content="Software engineer focused on building scalable systems and clean code. Experience at Amazon, Optum, and Advisory Board. Specializing in system architecture and team mentorship.">
+  <meta name="keywords" content="software engineer, full stack developer, system architecture, scalable systems, Amazon, Optum, portfolio, Ganesh Kumar Marimuthu, system design, design patterns, algorithms, technical writing, software blog, MVC pattern, flyweight pattern, OTP service, stock broker service">
+  <meta name="author" content="Ganesh Kumar Marimuthu">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/">
+  <meta property="og:title" content="Ganesh Kumar Marimuthu - Software Engineer | Portfolio">
+  <meta property="og:description" content="Software engineer focused on building scalable systems and clean code. Experience at Amazon, Optum, and Advisory Board.">
+  <meta property="og:image" content="https://yourwebsite.com/images/Avatar.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://yourwebsite.com/">
+  <meta property="twitter:title" content="Ganesh Kumar Marimuthu - Software Engineer | Portfolio">
+  <meta property="twitter:description" content="Software engineer focused on building scalable systems and clean code. Experience at Amazon, Optum, and Advisory Board.">
+  <meta property="twitter:image" content="https://yourwebsite.com/images/Avatar.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://yourwebsite.com/">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ganesh Kumar Marimuthu",
+    "jobTitle": "Software Engineer",
+    "url": "https://yourwebsite.com",
+    "image": "https://yourwebsite.com/images/Avatar.png",
+    "description": "Software engineer focused on building scalable systems and clean code",
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "Amazon"
+      },
+      {
+        "@type": "Organization",
+        "name": "Optum"
+      },
+      {
+        "@type": "Organization",
+        "name": "Advisory Board"
+      }
+    ],
+    "sameAs": [
+      "https://github.com/ganeshkumarm1",
+      "https://linkedin.com/in/ganeshkumarm1",
+      "https://medium.com/@ganeshkumarm1"
+    ]
+  }
+  </script>
+  
+  <!-- Blog/Article Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Ganesh Kumar Marimuthu's Technical Writing",
+    "description": "Technical articles on system design, algorithms, and software engineering",
+    "url": "https://yourwebsite.com/#writing",
+    "author": {
+      "@type": "Person",
+      "name": "Ganesh Kumar Marimuthu",
+      "url": "https://yourwebsite.com"
+    },
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "Designing Stock Broker Service",
+        "description": "Designing highly scalable Stock Broker Service",
+        "url": "https://github.com/SweetCodey/system-design-masterclass/blob/main/13.%20Design%20Stock%20Broker%20Service/StockBrokerService.md",
+        "datePublished": "2026-02-03",
+        "author": {
+          "@type": "Person",
+          "name": "Ganesh Kumar Marimuthu"
+        },
+        "keywords": "system design, stock broker, scalability, distributed systems"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Designing OTP Service",
+        "description": "Designing a secure OTP Service",
+        "url": "https://github.com/SweetCodey/system-design-masterclass/blob/main/12.%20Design%20OTP%20Service/OTP%20Service.md",
+        "datePublished": "2026-01-11",
+        "author": {
+          "@type": "Person",
+          "name": "Ganesh Kumar Marimuthu"
+        },
+        "keywords": "system design, OTP, security, authentication"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "MVC Design Pattern",
+        "description": "Build modular web applications using MVC pattern",
+        "url": "https://www.scaler.com/topics/mvc-design-pattern/",
+        "datePublished": "2024-04-25",
+        "author": {
+          "@type": "Person",
+          "name": "Ganesh Kumar Marimuthu"
+        },
+        "keywords": "design patterns, MVC, software architecture, web development"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Flyweight Design Pattern",
+        "description": "Build low memory footprint applications using Flyweight pattern",
+        "url": "https://www.scaler.com/topics/design-patterns/flyweight-design-pattern/",
+        "datePublished": "2024-04-26",
+        "author": {
+          "@type": "Person",
+          "name": "Ganesh Kumar Marimuthu"
+        },
+        "keywords": "design patterns, flyweight, memory optimization, performance"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "MO's Algorithm — Range Queries Made Easy",
+        "description": "An Efficient Way to Solve Offline Range Query Problems",
+        "url": "https://medium.com/javarevisited/mos-algorithm-range-queries-made-easy-6c35047369ca",
+        "datePublished": "2020-08-04",
+        "author": {
+          "@type": "Person",
+          "name": "Ganesh Kumar Marimuthu"
+        },
+        "keywords": "algorithms, data structures, competitive programming, optimization"
+      }
+    ]
+  }
+  </script>
 </head>
-
 <body>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="nav__logo">Ganesh Kumar Marimuthu<span class="nav__logo-dot" aria-hidden="true">.</span></a>
+      
+      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+      
+      <ul class="nav__list">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#freelance">Freelance</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#find-me-online">Find Me Online</a></li>
+        <li><a href="https://minimalist48.gumroad.com/?section=Qck2PI4KqJR0JqMkvXETLw==#Qck2PI4KqJR0JqMkvXETLw==" target="_blank" rel="noopener noreferrer" class="nav__store">Store <svg class="external-icon" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 11L11 1M11 1H1M11 1v10"/></svg></a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="profile" class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img img-circle" src="img/ganesh.png" width="200" height="200" alt="GaneshKumarM">
-            </div>
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <div class="hero__main">
+        <div class="hero__content">
+          <p class="hero__greeting">Hello, My name is</p>
+          <h1 id="hero-heading" class="hero__title">
+            <span class="hero__title-wrapper">Ganesh<span class="hero__title-accent"></span></span>
+          </h1>
+          <p class="hero__subtitle">Software engineer focused on building reliable systems and clean code. I enjoy writing technical articles, creating tools, and mentoring.</p>
+          
+          <div class="hero__actions">
+            <a href="https://topmate.io/ganesh_kumar_marimuthu" target="_blank" class="hero__cta hero__cta--primary">Book a Call</a>
+          </div>
         </div>
-    </section>
-
-    <section id="home" class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="title">Ganesh Kumar M</h1>
-                <p>Why be a king when you can be the god</p>
-            </div>
+        
+        <div class="hero__illustration">
+          <img src="images/Avatar.png" alt="Ganesh Kumar Marimuthu" class="hero__avatar">
         </div>
-    </section>
-
-    <section id="about" class="container-fluid">
-
-    </section>
-
-    <section id="skills" class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="title">Skills</h1>
-                <i class="icon-html5-alt"></i>
-                <i class="icon-css3-alt"></i>
-                <i class="icon-javascript-alt"></i>
-                <i class="icon-bootstrap"></i>
-                <i class="icon-jquery"></i>
-                <i class="icon-nodejs"></i>
-                <i class="icon-mongodb"></i>
-                <i class="icon-python"></i>
-                <i class="icon-git"></i>
-            </div>
+      </div>
+      
+      <div class="hero__companies">
+        <p class="hero__companies-label">Companies I've worked with</p>
+        <div class="hero__companies-logos">
+          <img src="images/AmazonLogo.png" alt="Amazon" class="company-logo">
+          <img src="images/OptumLogo.png" alt="Optum" class="company-logo">
+          <img src="images/AdvisoryLogo.png" alt="Advisory Board" class="company-logo">
         </div>
+      </div>
     </section>
 
-    <section id="projects" class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="title">Projects</h1>
-                <ul class="col-md-12">
-                    <a id="pomodoro-clock" href="https://github.com/ganeshmkumar/PomodoroClock.git" target="_blank">
-                        <li>PomodoroClock</li>
-                    </a>
-                    <a id="upvote" href="https://github.com/ganeshmkumar/Upvote.git" target="_blank">
-                        <li>Upvote</li>
-                    </a>
-                    <a id="tvfreak" href="https://github.com/ganeshmkumar/TVFreak.git" target="_blank">
-                        <li>TVFreak</li>
-                    </a>
-                    <a id="twentyh" href="https://github.com/ganeshmkumar/20H.git" target="_blank">
-                        <li>20H</li>
-                    </a>
-                    <a id="notify-me" href="https://github.com/ganeshmkumar/NotifyMe.git" target="_blank">
-                        <li>NotifyMe</li>
-                    </a>
-                    <a id="tweet" href="https://github.com/ganeshmkumar/Tweet.git" target="_blank">
-                        <li>Tweet</li>
-                    </a>
-                    <a id="wikipedia-viewer" href="https://github.com/ganeshmkumar/WikipediaViewer.git" target="_blank">
-                        <li>WikipediaViewer</li>
-                    </a>
-                </ul>
-
-            </div>
-        </div>
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <h2 id="experience-heading" class="section__title">Experience</h2>
+      <div class="bento-grid">
+        <article class="bento-item bento-item--large">
+          <div class="bento-item__year">2021 — Now</div>
+          <h3 class="bento-item__role">Software Development Engineer II</h3>
+          <p class="bento-item__company">Amazon</p>
+          <p class="bento-item__description">Building highly customized and seamless payment and pricing experience to delight our customers all around the world</p>
+        </article>
+        
+        <article class="bento-item bento-item--wide">
+          <div class="bento-item__year">2019 — 2022</div>
+          <h3 class="bento-item__role">Software Engineer</h3>
+          <p class="bento-item__company">Optum</p>
+          <!-- <p class="bento-item__description">Built healthcare solutions for surgical benchmarking and cost variance analysis</p> -->
+        </article>
+        
+        <article class="bento-item bento-item--wide">
+          <div class="bento-item__year">2016 — 2017</div>
+          <h3 class="bento-item__role">Software Engineering Intern</h3>
+          <p class="bento-item__company">Advisory Board</p>
+          <!-- <p class="bento-item__description">Built healthcare application for master data specification</p> -->
+        </article>
+      </div>
     </section>
 
-    <section id="contact" class="container-fluid">
-        <div class="row col-md-12">
-            <div class="col-md-12">
-                <h1 class="title">Contact</h1>
-                <ul>
-                    <a id="envelope" href="mailto:ganeshkumar.m1996@gmail.com">
-                        <li><i class="fa fa-envelope"></i></li>
-                    </a>
-                    <a id="github" href="https://github.com/ganeshkumarm1" target="_blank">
-                        <li><i class="fa fa-github"></i></li>
-                    </a>
-                    <a id="quora" href="https://www.quora.com/profile/GaNeSh-KuMaR-M-4" target="_blank">
-                        <li><i class="fa"><strong>Q</strong></i></li>
-                    </a>
-                    <a id="linkedin" href="https://in.linkedin.com/in/ganesh-kumar-m-47b876111" target="_blank">
-                        <li><i class="fa fa-linkedin"></i></li>
-                    </a>
-                    <a id="codepen" href="http://codepen.io/ganeshkumarm/pens/public" target="_blank">
-                        <li><i class="fa fa-codepen"></i></li>
-                    </a>
-                </ul>
-            </div>
-        </div>
+    <section id="freelance" class="section" aria-labelledby="freelance-heading">
+      <h2 id="freelance-heading" class="section__title">Freelance</h2>
+      <div class="freelance-list">
+        <article class="freelance-item">
+          <div class="freelance-item__meta">
+            <div class="freelance-item__year">2026 — Now</div>
+            <p class="freelance-item__company">Sweet Codey</p>
+          </div>
+          <div class="freelance-item__content">
+            <h3 class="freelance-item__role">Content Writer</h3>
+            <p class="freelance-item__description">Writing articles on designing large scale systems</p>
+          </div>
+        </article>
+        <article class="freelance-item">
+          <div class="freelance-item__meta">
+            <div class="freelance-item__year">2021 — 2022</div>
+            <p class="freelance-item__company">Scaler</p>
+          </div>
+          <div class="freelance-item__content">
+            <h3 class="freelance-item__role">Content Writer</h3>
+            <p class="freelance-item__description">Wrote articles related to design patterns, programming fundamentals, and Java</p>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section id="navigate" class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <i id="prev" class="fa fa-angle-left"></i>
-                <i id="next" class="fa fa-angle-right"></i>
-            </div>
-        </div>
+    <section id="projects" class="section section--projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading" class="section__title">Projects</h2>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Projects will be dynamically loaded here -->
+      </div>
     </section>
-    <br>
-    <div>
-        <a href="https://www.ganeshkumarm.me" target="_blank" style="color: red; text-decoration: underline; font-weight: bold;">Checkout my new site</a>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+
+    <section id="writing" class="section" aria-labelledby="writing-heading">
+      <h2 id="writing-heading" class="section__title">Writing</h2>
+      <div class="writing-list" id="writing-list">
+        <!-- Writing items will be dynamically loaded here -->
+      </div>
+    </section>
+
+    <section id="find-me-online" class="section section--connect" aria-labelledby="connect-heading">
+      <h2 id="connect-heading" class="section__title">Find Me Online</h2>
+      <ul class="social" aria-label="Social links">
+        <li>
+          <a href="https://github.com/ganeshkumarm1" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg class="social__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/ganeshkumarm1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg class="social__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://medium.com/@ganeshkumarm1" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+            <svg class="social__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+            <span>Medium</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ganesh Kumar Marimuthu</p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>

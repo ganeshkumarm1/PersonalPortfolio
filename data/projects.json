@@ -1,0 +1,22 @@
+[
+  {
+    "name": "DriftWatcher",
+    "description": "A quiet AI companion that notices when your attention wanders and gently brings you back to what you meant to do",
+    "tech": "Python, LLM",
+    "links": {
+      "github": "https://github.com/ganeshkumarm1/DriftWatcher"
+    },
+    "featured": true,
+    "order": 1
+  },
+  {
+    "name": "Many to One",
+    "description": "VSCode plugin to convert multiple spaces into a single space",
+    "tech": "Javascript",
+    "links": {
+      "github": "https://github.com/ganeshkumarm1/many-to-one"
+    },
+    "featured": true,
+    "order": 2
+  }
+]

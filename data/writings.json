@@ -1,0 +1,44 @@
+[
+  {
+    "title": "MO’s Algorithm — Range Queries Made Easy",
+    "excerpt": "An Efficient Way to Solve Offline Range Query Problems",
+    "url": "https://medium.com/javarevisited/mos-algorithm-range-queries-made-easy-6c35047369ca",
+    "date": "2020-08-04",
+    "displayDate": "Aug 2020"
+  },
+  {
+    "title": "Designing Stock Broker Service",
+    "excerpt": "Designing highly scalable Stock Broker Service",
+    "url": "https://github.com/SweetCodey/system-design-masterclass/blob/main/13.%20Design%20Stock%20Broker%20Service/StockBrokerService.md",
+    "date": "2026-02-03",
+    "displayDate": "Feb 2026"
+  },
+  {
+    "title": "Designing OTP Service",
+    "excerpt": "Designing a secure OTP Service",
+    "url": "https://github.com/SweetCodey/system-design-masterclass/blob/main/12.%20Design%20OTP%20Service/OTP%20Service.md",
+    "date": "2026-01-11",
+    "displayDate": "Jan 2026"
+  },
+  {
+    "title": "MVC Design Pattern",
+    "excerpt": "Build modular web applications using MVC pattern",
+    "url": "https://www.scaler.com/topics/mvc-design-pattern/",
+    "date": "2024-04-25",
+    "displayDate": "Apr 2024"
+  },
+  {
+    "title": "Flyweight Design Pattern",
+    "excerpt": "Build low memory footprint applications using Flyweight pattern",
+    "url": "https://www.scaler.com/topics/design-patterns/flyweight-design-pattern/",
+    "date": "2024-04-26",
+    "displayDate": "Apr 2024"
+  },
+  {
+    "title": "Designing Online Shopping System",
+    "excerpt": "Designing a scalable e-commerce system",
+    "url": "https://github.com/SweetCodey/system-design-masterclass/blob/main/14.%20Design%20Online%20Shopping%20System/OnlineShoppingSystem.md",
+    "date": "2026-02-24",
+    "displayDate": "Feb 2026"
+  }
+]
