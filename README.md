@@ -2,4 +2,7 @@
 A Minimal Perosnal Portfolio Template
 
 # Preview
-<a href="https://www.ganeshkumarm.me/MinimalPortfolioTemplate/">MinimalPortfolioTemplate</a>
+https://ganeshkumarm1.github.io/
+
+# Github Repo
+https://github.com/ganeshkumarm1/ganeshkumarm1.github.io
